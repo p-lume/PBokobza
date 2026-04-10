@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #F2E9D8;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #1A1A1A;
+}
+
+.container {
+    max-width: 900px;
+    margin: 80px auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.name {
+    font-size: 3rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.name span {
+    color: #6A1F2A;
+    font-weight: 700;
+}
+
+.options {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.option-card {
+    background: white;
+    border-radius: 14px;
+    padding: 30px 40px;
+    width: 260px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    transition: transform .3s ease, box-shadow .3s ease;
+    border-top: 6px solid #6A1F2A;
+}
+
+.option-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 35px rgba(0,0,0,0.12);
+}
+
+.option-card h2 {
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #6A1F2A;
+}
+
+button {
+    background: #E67E22;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 8px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background .3s ease;
+}
+
+button:hover {
+    background: #cf6f1d;
+}
+
+a button {
+    width: 100%;
+}
